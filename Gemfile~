@@ -3,16 +3,11 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
-# Use postgresql as the database for Active Record
+# Use sqlite3 as the database for Active Record
 
-gem 'pg'
+gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 
 gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
-
-group :test do
-  gem 'rspec', '3.4'
-  gem 'webrat', '0.7.3'
-end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

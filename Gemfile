@@ -6,7 +6,7 @@ gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 
 gem 'sqlite3', '~> 1.3', '>= 1.3.11'
-
+gem 'annotate', '~> 2.7'
 gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
 
 # Use SCSS for stylesheets
